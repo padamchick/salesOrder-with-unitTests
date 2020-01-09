@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         LineItem but = new LineItem(10, 1.5, "Air Max", "book");
         LineItem but2 = new LineItem(15, 2.5, "Air Janoski", "book");
-        LineItem but3 = new LineItem(100, 4,"chuj wie", "book");
+        LineItem but3 = new LineItem(100, 4,"Kobiety, ktore nienawidza siebie", "book");
 
         SalesOrder koszyk = new SalesOrder();
         koszyk.setDeliveryCountry(Country.POLAND);
